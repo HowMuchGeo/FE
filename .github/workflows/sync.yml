@@ -19,7 +19,7 @@ jobs:
           
       - name: Add remote-url
         run: |
-          git remote add forked-repo https://twilightyear:${{ secrets.AUTO_ACTIONS }}@github.com/orzxro/FE
+          git remote add forked-repo https://twilightyear:${{ secrets.AUTO_ACTIONS }}@github.com/siyoung24/PY
           git config user.name orzxro
           git config user.email ${{ secrets.EMAIL }}
 
