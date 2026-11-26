@@ -1,5 +1,60 @@
 @import "tailwindcss";
 
+/* 디자인 (피그마 Foundation). 
+   회색: Tailwind 기본 slate */
+
+@theme {
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+
+  --color-brand-400: #69a9ef;
+  --color-brand-700: #1557a6;
+  --color-brand-800: #123f78;
+
+  --color-sky-50: #f5f9fe;
+  --color-sky-100: #eaf4ff;
+  --color-sky-200: #dceeff;
+  --color-sky-300: #b9e0fc;
+
+  --text-h2: 32px;
+  --text-h2--line-height: 46px;
+  --text-h2--letter-spacing: -0.015em;
+  --text-h2--font-weight: 700;
+
+  --text-h3: 28px;
+  --text-h3--line-height: 40px;
+  --text-h3--letter-spacing: -0.01em;
+  --text-h3--font-weight: 600;
+
+  --text-h4: 24px;
+  --text-h4--line-height: 36px;
+  --text-h4--letter-spacing: -0.005em;
+  --text-h4--font-weight: 600;
+
+  --text-title-sm: 18px;
+  --text-title-sm--line-height: 28px;
+  --text-title-sm--letter-spacing: -0.005em;
+  --text-title-sm--font-weight: 600;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 30px;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 26px;
+
+  --text-label: 16px;
+  --text-label--line-height: 24px;
+  --text-label--font-weight: 600;
+
+  --text-caption: 14px;
+  --text-caption--line-height: 22px;
+
+  --text-caption-bold: 14px;
+  --text-caption-bold--line-height: 20px;
+  --text-caption-bold--font-weight: 500;
+
+  --shadow-card: 0 2px 8px #0f2a480f;
+}
+
 /* 손잡이 두 개짜리 범위 슬라이더 (사업 기간 : 분담금 고시일 ~ 최종 인가)
    range input 두 개를 겹쳐 둔다. 트랙은 클릭을 통과시키고 손잡이만 잡히게 해야
    아래쪽 input 의 손잡이도 잡을 수 있다 */
