@@ -1,4 +1,5 @@
 import Gnb from '../components/Gnb';
+import RegionSearch from '../components/RegionSearch';
 
 //메인 홈 페이지 (로그인 후 시작 화면)
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
                         주소를 검색하거나 지도를 이용해 분석할 필지를 선택하고, 예상 분담금을 확인해 보세요.
                     </p>
                 </section>
+                <RegionSearch />
             </main>
         </div>
     );

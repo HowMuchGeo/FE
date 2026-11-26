@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Search Icon" clip-path="url(#clip0_0_4)">
+<path id="Union" d="M10.5 0C16.299 0 21 4.70101 21 10.5C21 13.1887 19.9873 15.6395 18.3252 17.4971L23.0713 22.2422C23.4618 22.6327 23.4618 23.2667 23.0713 23.6572C22.6809 24.0476 22.0478 24.0474 21.6572 23.6572L16.8555 18.8555C15.0909 20.1997 12.8895 21 10.5 21C4.70101 21 0 16.299 0 10.5C0 4.70101 4.70101 0 10.5 0ZM10.5 2C5.80558 2 2 5.80558 2 10.5C2 15.1944 5.80558 19 10.5 19C15.1944 19 19 15.1944 19 10.5C19 5.80558 15.1944 2 10.5 2Z" fill="#1557A6"/>
+<path id="Ellipse 2" d="M5.5 9.5C5.5 8 7.5 5.5 9.5 5.5" stroke-width="2" stroke-linecap="round" stroke="#1769C2"/>
+</g>
+<defs>
+<clipPath id="clip0_0_4">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
