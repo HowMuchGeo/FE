@@ -1,5 +1,6 @@
 import Gnb from '../components/Gnb';
 import RegionSearch from '../components/RegionSearch';
+import AnalysisTypeSelect from '../components/AnalysisTypeSelect';
 
 //메인 홈 페이지 (로그인 후 시작 화면)
 export default function HomePage() {
@@ -16,6 +17,7 @@ export default function HomePage() {
                     </p>
                 </section>
                 <RegionSearch />
+                <AnalysisTypeSelect />
             </main>
         </div>
     );

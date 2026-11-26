@@ -6,22 +6,24 @@
 @theme {
   --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
 
-
   --color-brand-400: #69a9ef;
   --color-brand-700: #1557a6;
   --color-brand-800: #123f78;
-
 
   --color-sky-50: #f5f9fe;
   --color-sky-100: #eaf4ff;
   --color-sky-200: #dceeff;
   --color-sky-300: #b9e0fc;
 
-
   --text-h2: 32px;
   --text-h2--line-height: 46px;
   --text-h2--letter-spacing: -0.015em;
   --text-h2--font-weight: 700;
+
+  --text-h3: 28px;
+  --text-h3--line-height: 40px;
+  --text-h3--letter-spacing: -0.01em;
+  --text-h3--font-weight: 600;
 
   --text-h4: 24px;
   --text-h4--line-height: 36px;
@@ -49,7 +51,6 @@
   --text-caption-bold: 14px;
   --text-caption-bold--line-height: 20px;
   --text-caption-bold--font-weight: 500;
-
 
   --shadow-card: 0 2px 8px #0f2a480f;
 }
