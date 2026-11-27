@@ -7,6 +7,7 @@ import PaymentPage from './pages/PaymentPage';
 import OrganizationPage from './pages/OrganizationPage';
 import CreditPurchasePage from './pages/CreditPurchasePage';
 import HomePage from './pages/HomePage';
+import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
   return (
@@ -19,9 +20,7 @@ function App() {
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/organization" element={<OrganizationPage />} />
         <Route path="/credits/payment" element={<CreditPurchasePage />} />
-
-        {/* 새 메인 홈 확인용 임시 경로 */}
-        <Route path="/home" element={<HomePage />} />
+        <Route path="/home" element={<ProtectedRoute><HomePage /></ProtectedRoute>} />
       </Routes>
     </BrowserRouter>
   );
