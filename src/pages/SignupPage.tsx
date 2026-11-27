@@ -30,7 +30,7 @@ export default function SignupPage() {
 
             <main className="relative w-full max-w-3xl">
                 <section className="rounded-3xl border border-white/80 bg-white/90 p-6 shadow-xl shadow-slate-200/70 backdrop-blur sm:p-9">
-                    <Link to="/main" className="flex w-full items-center justify-center">
+                    <Link to="/home" className="flex w-full items-center justify-center">
                         <img
                             src="/banner.png"
                             alt="얼마 GEO 배너"
@@ -171,7 +171,7 @@ export default function SignupPage() {
                             로그인
                         </button>
                         <Link
-                            to="/main"
+                            to="/home"
                             className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white/80 px-4 py-2.5 text-sm font-semibold text-slate-500 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-100"
                         >
                             돌아가기

@@ -28,14 +28,14 @@ export default function CreditPurchasePage() {
     return (
         <main className="min-h-screen bg-[#f4f7f4] text-slate-900">
             <header className="flex h-16 items-center justify-between gap-4 border-b border-slate-200 bg-white px-4 sm:px-5">
-                <Link to="/main" className="flex w-fit shrink-0">
+                <Link to="/home" className="flex w-fit shrink-0">
                     <img
                         src="/banner.png"
                         alt="얼마 GEO 배너"
                         className="h-15 w-30 object-contain"
                     />
                 </Link>
-                <Link to="/main" className="shrink-0 whitespace-nowrap text-sm font-medium text-slate-600 hover:text-slate-950">돌아가기</Link>
+                <Link to="/home" className="shrink-0 whitespace-nowrap text-sm font-medium text-slate-600 hover:text-slate-950">돌아가기</Link>
             </header>
 
             <div className="mx-auto grid w-full max-w-4xl gap-10 px-5 py-10 lg:grid-cols-[1fr_340px] lg:py-16">
@@ -46,7 +46,7 @@ export default function CreditPurchasePage() {
 
                     {paymentStatus === 'success' && (
                         <div role="status" className="mt-8 border-l-4 border-emerald-600 bg-emerald-50 px-4 py-3 text-sm text-emerald-900">
-                            결제가 승인되어 크레딧 5회가 추가되었습니다. <Link to="/main" className="ml-2 font-semibold underline">서비스로 돌아가기</Link>
+                            결제가 승인되어 크레딧 5회가 추가되었습니다. <Link to="/home" className="ml-2 font-semibold underline">서비스로 돌아가기</Link>
                         </div>
                     )}
                     {paymentStatus === 'cancel' && (

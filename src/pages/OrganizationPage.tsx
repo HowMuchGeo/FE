@@ -20,14 +20,14 @@ export default function OrganizationPage() {
     return (
         <main className="min-h-screen bg-[#f4f7f4] text-slate-900">
             <header className="flex h-16 items-center justify-between gap-4 border-b border-slate-200 bg-white px-5 sm:px-10">
-                <Link to="/main" className="flex min-w-0 flex-1">
+                <Link to="/home" className="flex min-w-0 flex-1">
                     <img
                         src="/banner.png"
                         alt="얼마 GEO 배너"
                         className="h-15 w-30 object-contain sm:h-36"
                     />
                 </Link>
-                <Link to="/main" className="shrink-0 whitespace-nowrap text-sm font-medium text-slate-600 hover:text-slate-950">메인으로</Link>
+                <Link to="/home" className="shrink-0 whitespace-nowrap text-sm font-medium text-slate-600 hover:text-slate-950">메인으로</Link>
             </header>
             <div className="mx-auto max-w-4xl px-5 py-10 sm:px-10">
                 <p className="text-sm font-semibold uppercase tracking-[0.12em] text-emerald-800">Account</p>

@@ -45,7 +45,7 @@ export const useLoginPage = () => {
             if (navigationState?.afterLoginPath === '/payment' && navigationState.paymentParam) {
                 navigate('/payment', { state: { paymentParam: navigationState.paymentParam } });
             } else {
-                navigate('/main');
+                navigate('/home');
             }
 
         } catch(err : any) {

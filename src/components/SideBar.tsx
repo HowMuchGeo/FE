@@ -23,7 +23,7 @@ const SideBar: React.FC<SideBarProps> = ({ isOpen, onToggleSidebar, activePanel,
             >
 
                 {/* 사이드바 제목 영역 */}
-                <Link to="/main" className="flex w-full items-center justify-center">
+                <Link to="/home" className="flex w-full items-center justify-center">
                     <img
                         src="/banner.png"
                         alt="얼마 GEO 배너"
