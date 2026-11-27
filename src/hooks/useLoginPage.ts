@@ -14,7 +14,9 @@ export const useLoginPage = () => {
     const [password, setPassword] = useState<string>('');
     const [loginAttempted, setLoginAttempted] = useState<boolean>(false);
 
-    const isFormValid = isVerified && userName.trim() !== '' && password.trim() !== '';
+    const phoneDigits = userName.replace(/\D/g, '');
+    //휴대폰 번호 형식(01로 시작하는 10~11자리)일 때만 로그인 버튼 활성화
+    const isFormValid = isVerified && /^01\d{8,9}$/.test(phoneDigits) && password.trim() !== '';
 
     const navigate = useNavigate();
     const { state } = useLocation();
@@ -32,7 +34,7 @@ export const useLoginPage = () => {
             e.preventDefault();
 
             const userData = {
-                user_name: userName,
+                user_name: phoneDigits,
                 password: password
             }
 
