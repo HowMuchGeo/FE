@@ -1,3 +1,5 @@
+import ProfileMenu from './ProfileMenu';
+
 //상단 메뉴 항목
 interface GnbMenuItemProps {
     label: string;
@@ -33,9 +35,7 @@ export default function Gnb() {
                 <GnbMenuItem label="내 폴더" icon="/icons/gnb/folder.svg" hoverIcon="/icons/gnb/folder-hover.svg" />
                 <GnbMenuItem label="조합 관리" icon="/icons/gnb/association.svg" hoverIcon="/icons/gnb/association-hover.svg" />
                 <GnbMenuItem label="설정" icon="/icons/gnb/settings.svg" hoverIcon="/icons/gnb/settings-hover.svg" />
-                <button type="button" aria-label="프로필 메뉴" className="flex size-9 items-center justify-center rounded-full">
-                    <img src="/icons/gnb/profile.svg" alt="" />
-                </button>
+                <ProfileMenu />
             </nav>
         </header>
     );
