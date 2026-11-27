@@ -5,7 +5,7 @@
 
 @theme {
   --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-
+    --font-roboto-mono: "Roboto Mono", monospace;
   --color-brand-400: #69a9ef;
   --color-brand-700: #1557a6;
   --color-brand-800: #123f78;
@@ -53,6 +53,7 @@
   --text-caption-bold--font-weight: 500;
 
   --shadow-card: 0 2px 8px #0f2a480f;
+  --shadow-card-md: 0 4px 16px #0f2a4814;
 }
 
 /* 손잡이 두 개짜리 범위 슬라이더 (사업 기간 : 분담금 고시일 ~ 최종 인가)
