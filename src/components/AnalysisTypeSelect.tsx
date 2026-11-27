@@ -18,7 +18,7 @@ function AnalysisCard({ title, description, illustration, illustrationDefault, s
     const content: ReactNode = (
         <>
             <div className="flex flex-1 flex-col items-start gap-3">
-                <span className={`text-h2 ${selected ? 'text-slate-900' : 'text-slate-500'}`}>{title}</span>
+                <span className={`text-h3 ${selected ? 'text-slate-900' : 'text-slate-500'}`}>{title}</span>
                 <span className={`text-body-lg ${selected ? 'text-slate-600' : 'text-slate-400'}`}>{description}</span>
                 {selected && (
                     <button
